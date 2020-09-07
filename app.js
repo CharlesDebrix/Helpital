@@ -1,20 +1,21 @@
 // HELPITAL //
 
-//Test
-var http = require('http');
+const http = require('http');
+const express = require('express');
+const path = require('path');
 
-var server = http.createServer(function(req, res) {
-    res.writeHead(200, {"Content-Type": "text/html"});
-    res.write('<!DOCTYPE html>'+
-'<html>'+
-'    <head>'+
-'        <meta charset="utf-8" />'+
-'        <title>Ma page Node.js !</title>'+
-'    </head>'+ 
-'    <body>'+
-'     	<p>Voici un paragraphe <strong>HTML</strong> !</p>'+
-'    </body>'+
-'</html>');
-    res.end();
+const app = express();
+
+app.use(express.json());
+app.use(express.static(__dirname+"/public"));
+
+// default URL for website
+app.use('/', function(req,res){
+    res.sendFile(path.join(__dirname+'/index.html'));
+    //__dirname : It will resolve to your project folder.
 });
-server.listen(8080);
+
+const server = http.createServer(app);
+const port = 8080;
+server.listen(port);
+console.debug('Server listening on port ' + port);
