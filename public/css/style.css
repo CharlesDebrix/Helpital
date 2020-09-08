@@ -7,7 +7,7 @@ body {
 /* HEADER_HOMEPAGE */
 
 .header_homepage {
-    background-color: red;
+    background-color: #b52222;
     height: 5rem;
 }
 
@@ -17,6 +17,25 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     padding: 1rem 0 0 1rem;
+    color: initial;
+    text-decoration: none;
+}
+
+.header_homepage .a {
+    display: flex;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding: 1rem 0 0 1rem;
+}
+
+body .btn {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
 }
 
 /* FONTS */
