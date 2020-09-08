@@ -1,4 +1,27 @@
-.homepage_title {
-    background-color: red;
-    color: green;
+/* BODY */
+
+body {
+    margin: 0;
 }
+
+/* HEADER_HOMEPAGE */
+
+.header_homepage {
+    background-color: red;
+    height: 5rem;
+}
+
+.header_homepage .title {
+    display: flex;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding: 1rem 0 0 1rem;
+}
+
+/* FONTS */
+
+/* @font-face {
+    font-family: Helvetica;
+    src: url("../fonts/BonvenoCF-Light.otf");
+} */
