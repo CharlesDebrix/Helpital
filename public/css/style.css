@@ -2,31 +2,7 @@
 
 body {
     margin: 0;
-}
-
-/* HEADER_HOMEPAGE */
-
-.header_homepage {
-    background-color: #b52222;
-    height: 5rem;
-}
-
-.header_homepage .title {
-    display: flex;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
-    padding: 1rem 0 0 1rem;
-    color: initial;
-    text-decoration: none;
-}
-
-.header_homepage .a {
-    display: flex;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
-    padding: 1rem 0 0 1rem;
+    background-color: #f2ebed;
 }
 
 body .btn {
@@ -36,6 +12,72 @@ body .btn {
 
     text-decoration: none;
     color: initial;
+}
+
+/* HEADER_HOMEPAGE */
+
+.header_homepage {
+    display: flex;
+    background-color: #FFF;
+    height: 4rem;
+    box-shadow: 3px -1px 5px black;
+}
+
+.header_homepage img {
+    height: 3rem;
+    margin: 15px;
+}
+
+.header_homepage span {
+    margin: 30px 20px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_homepage .searching_bar {
+    width: 25%;
+    padding: 10px 0 0 15px;
+    height: 2rem;
+    margin: 8px 0 0 4rem;
+    border: solid #cec9c8 1px;
+    background-color: white;
+    box-shadow: 3px 3px 10px -5px black;
+}
+
+.header_homepage .searching_bar img {
+    height: 17px;
+    margin: 0 15px -3px 0px;
+}
+
+/* WELCOME_BLOCK */
+
+.welcome_block {
+    display: flex;
+    border: solid #cec9c8 1px;
+    background-color: white;
+    width: 40%;
+    margin: 5% 30%;
+    height: 8rem;
+    padding: 0 25px;
+    border-radius: 10px;
+}
+
+.welcome_block img {
+    height: 6rem;
+    margin: 15px 25px 0 15px;
+}
+
+.welcome_block span {
+    margin: 25px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/* CALENDAR */
+
+.calendar {
+    border: solid #cec9c8 1px;
+    background-color: white;
 }
 
 /* FONTS */
