@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+} 
+
+html::-webkit-scrollbar {
+	display: none;
+	opacity: 1.0;
+}
+
+body {
+    margin-top: 5%;
+    background: url(images/bg.png) no-repeat center center fixed;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.1);
+}
+
+.navpad {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.logo {
+    width: 10%;
+    vertical-align: middle;
+}
+
+a {
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+}
+
+ul, li {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    position: relative;
+}
+
+.sous {
+    display: none;
+    background-color: white;
+    position: absolute;
+}
+
+ul li:hover .sous{
+    display: block;
+}
+
+.sous li{
+    display: inline-block;
+    float: none;
+    width: 100%;
+    margin: 10px;
+    text-align: left;
+}
+
+.deroulant {
+    display: inline-block;
+}
+
+.deroulant > a::after {
+    content:" ▼";
+    font-size: 12px;
+}
+
+input {
+    font-weight: 100;
+}
+
+.entry {
+	background-color: #f3f2f2;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #f3f2f2;
+	color: #c7c7c7;
+	padding: 10px 15px;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+}
+
+.entry:hover {
+    background-color: #fafafa;
+    border: 1px solid #a5a5a5;
+}
+
+.entry:active, .entry:focus {
+    background-color: white;
+    box-shadow: 0 0 0 #f3f2f2;
+	color: #000000;
+}
+
+div {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.welcome {
+    margin: auto;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    width: 30%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.1);
+}
+
+.doctor {
+    display: inline-block;
+    width: 15%;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+h2 {
+    margin-top: 15px;
+    font-size: 95%;
+    font-weight: 100;
+    color: rgb(143, 143, 143);
+}
+
+.planning {
+    margin: auto;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    width: 80%;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.1);
+}
+
+.arrow {
+    display: inline-block;
+    width: 2%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.inlineblock {
+    display: inline-block;
+    font-weight: 100;
+    margin-top: 25px;
+}
+
+.days {
+    display: inline-block;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+}
+
+.hours {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(255, 227, 227);
+    border-radius: 10px;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.hours:hover {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(255, 206, 206);
+    border-radius: 10px;
+    border: 1px solid rgb(224, 224, 224);
+    outline: none;
+}
+
+.hours:active, .hours:focus {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(255, 148, 148);
+    border-radius: 10px;
+    border: 1px solid rgb(224, 224, 224);
+    outline: none;
+}
+
+.text {
+    font-size: 1.5em;
+    color: rgb(143, 143, 143);
+    margin: 15px;
+}
+
+.text2 {
+    overflow-wrap: break-word;
+    font-size: 1.5em;
+    color: black;
+}
+
+#patient {
+    margin: auto;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    width: 50%;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+#patient h1 {
+    font-size: 1.5em;
+    color: rgb(143, 143, 143);
+    margin-bottom: 15px;
+}
+
+#patient h2 {
+    overflow-wrap: break-word;
+    font-size: 1.5em;
+    color: black;
+    margin: 15px;
+}
+
