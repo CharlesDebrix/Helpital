@@ -1,0 +1,71 @@
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: dimgray;
+}
+
+#rooms_list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.room {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    display: flex;
+    width: 45%;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.room-expanded {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    display: flex;
+    width: 65%;
+    height: 600px;
+    background-color: blueviolet;
+}
+
+.room-title-div {
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    width: 70%;
+}
+
+.room-title {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: xxx-large;
+}
+
+.room-arrow {
+    width: 30%;
+    line-height: 200px;
+    font-size: xxx-large;
+    text-align: center;
+    user-select: none;
+}
+
+.room-arrow .material-icons:hover {
+    cursor: pointer;
+}

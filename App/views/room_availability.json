@@ -1,0 +1,68 @@
+{
+  "rooms": [
+    {
+      "number": 301,
+      "capacity": 2,
+      "taken": 1,
+      "bed_available": 1,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 302,
+      "capacity": 1,
+      "taken": 1,
+      "bed_available": 0,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 303,
+      "capacity": 1,
+      "taken": 0,
+      "bed_available": 1,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        }
+      ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
+    }
+  ]
+}
