@@ -12,7 +12,7 @@ const fs = require('fs');
 
 /* Ajout de express-ejs-layouts */
 // const ejsLayout = require('express-ejs-layouts');
-const { nextTick, cpuUsage } = require('process');
+const { nextTick, cpuUsage, traceDeprecation } = require('process');
 const crypto = require('crypto');
 
 /* Initialisation des variables */
@@ -121,6 +121,7 @@ function loadRoutes(callback) {
 
     // to do :
     expressApp.get('/planning', function (req, res) {
+        req.params.id = req.query.id;
         res.render('homepage/planning');
     })
 
@@ -144,6 +145,21 @@ function loadRoutes(callback) {
         res.render('patient/transfert');
     })
 
+    expressApp.get('/profil', function (req, res) {
+        // req.params.id = req.query.id;
+        // console.log(req.params.id)
+        res.render('user/profil');
+    })
+
+    const middleware = (req, res, next) => {
+        next();
+    }
+
+    expressApp.get('/authentification/:data', middleware, function(req, res) {
+        req.params.id = req.params.data;
+        res.redirect('/planning?id=' + req.params.id);
+    })
+
     // This will hold the users and authToken related to users
     const authTokens = {};
 
@@ -158,13 +174,12 @@ function loadRoutes(callback) {
     
         if (user) {
             const authToken = generateAuthToken();
-
             // Store authentication token
             authTokens[authToken] = user;
-
             // Setting the auth token in cookies
             res.cookie('AuthToken', authToken);
-            res.status(200).send({message: "Logged."});
+            res.cookie('Id', user.id);
+            res.status(200).send(user.id);
         } else {
             req.flash("messages", { "error" : "Invalid username or password" });
             res.status(401).send({message: "Not found."});

@@ -9,13 +9,14 @@ function createWindow() {
     window = new electron.BrowserWindow({
         width: 1920,
         height: 1080,
-        frame: false,
+        frame: true,
         webPreferences: {
             /* eslint-disable no-eval */
             nodeIntegration: true
         }
     });
- 
+    
+    window.removeMenu();
     /* Si vous décommentez cette ligne, vous verrez la console de débug Chrome */
     window.webContents.openDevTools();
  

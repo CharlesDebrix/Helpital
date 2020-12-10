@@ -1,12 +1,20 @@
 [
     {
+        "id": "1",
         "username": "helpital",
         "email": "helpital@gmail.com",
-        "password": "XohImNooBHFR0OVvjcYpJ3NgPQ1qq73WKhHvch0VQtg="
+        "dateDeNaissance": "01/09/2020",
+        "telephone": "0600000000",
+        "password": "XohImNooBHFR0OVvjcYpJ3NgPQ1qq73WKhHvch0VQtg=",
+        "photo": ""
     },
     {
+        "id": "2",
         "username": "test",
         "email": "test@mail.com",
-        "password": "n4bQgYhMfWWaL+qgxVrQFaO/TxsrC4Is0V1sFbDwCgg="
+        "dateDeNaissance": "01/09/2020",
+        "telephone": "0600000000",
+        "password": "n4bQgYhMfWWaL+qgxVrQFaO/TxsrC4Is0V1sFbDwCgg=",
+        "photo": ""
     }
 ]
