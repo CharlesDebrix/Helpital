@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Helpital</title>
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/login.css" />
+        <script>window.$ = window.jQuery = require('jquery');</script>
+        <script type="text/javascript" src="../loginpage/login.js"></script>
+        <script>$(document).ready(function() {
+            $( document ).ready(function() {
+                console.log( "document loaded" );
+            });
+            $( window ).on( "load", function() {
+                console.log( "window loaded" );
+            });
+        })</script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="login">
+                <h1>Login</h1>
+                <form method="post">
+                    <input type="text" id="userId" name="userId" placeholder="Username" required="required" />
+                    <input type="password" id="pswd" name="pswd" placeholder="Password" required="required" />
+                    <button type="submit" id="login" onClick="loginClick()" class="btn btn-primary btn-block btn-large">Sign in.</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
