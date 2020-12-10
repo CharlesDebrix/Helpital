@@ -1,0 +1,22 @@
+{
+    "name": "my-electron-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "electron ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^11.0.3",
+        "electron-reloader": "^1.1.0"
+    },
+    "dependencies": {
+        "bootstrap": "^5.0.0-beta1",
+        "electron-reload": "^1.5.0",
+        "jquery": "^3.5.1"
+    }
+}

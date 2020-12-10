@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Helpital</title>
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+        <script src="../js/bootstrap.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../scripts/annuaire.js"></script>
+        <link rel="stylesheet" type="text/css" href="../styles/annuaire.css"/>
+        <link rel="stylesheet" type="text/css" href="../styles/style.css"/>
+        <link rel="stylesheet" type="text/css" href="../styles/index.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+    </head>
+
+    <body onload="load()">
+        <div class="container">
+            <div class="row">
+                <div class="navbar navbar-default">
+                    <nav>
+                        <a class="navpad" href="index.html"><img class="logo" src="../../images/h_logo1.png"></a>
+                        <a class="navpad" href="index.html">Tableau de bord</a>
+                        <ul>
+                            <li class="deroulant"><a>Outils</a>
+                            <ul class="sous">
+                                <li><a>Annuaire</a></li>
+                                <li><a href="patient.html">Capsule patient</a></li>
+                                <li><a>Transfert de patient</a></li>
+                            </ul>
+                            </li>
+                        </ul>
+                        <a class="navpad">Profil</a>
+                        <a class="navpad"><input class="entry" type="text" placeholder="Rechercher"></a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="padding-top: 90px;">
+            <div id="myform" class="container data_display lst-group">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 col-lg-8 col-xl-6">
+                        <div class="row">
+                            <div class="col">
+                                <h1>Annuaire Helpital</h1>
+                                <h8 class="text-h3">Veuillez remplir les champs ci-dessous pour ajouter les informations d'un patient dans le formulaire</h8>
+                                <table class="table table-bordred table-striped table-hover">
+                                    <thead>
+                                        <th colspan="2"><h2>Ajouter un contact</h2></th>
+                                    </thead>
+                                    <tr>
+                                        <td>Nom:</td>
+                                        <td><input type="text" class ="form-control" id="name"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>E-mail:</td>
+                                        <td><input type="text" class ="form-control" id="email"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phone:</td>
+                                        <td><input type="text" class ="form-control" id="phone">
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <input type="button" class ="btn btn-primary" id="add" value="Add" onclick="Javascript:addRow()"></td>
+            </div>
+            <div id="mydata" class="container data_display list-group">
+                <div class ="row justify-content-center">
+                    <div class="col-12 col-md-8 col-lg-8 col-xl-6">
+                        <div class="row">
+                            <div class="col text-center">
+                                <table class="table table-bordred table-striped table-hover" id="myTableData">
+                                    <thead>
+                                        <th colspan="2"><h2>Contacts</h2></th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td><b>Name</b></td>
+                                            <td><b>E-mail</b></td>
+                                            <td><b>Phone</b></td>
+                                        </br>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://helpital.com/">Helpital.com</a>
+          </div>
+
+    </body>
+</html>
