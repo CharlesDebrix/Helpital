@@ -129,7 +129,7 @@ function loadRoutes(callback) {
     })
 
     expressApp.get('/appel', function (req, res) {
-        res.render('appelpage/appel');
+        res.render('appel/gestion');
     })
 
     expressApp.get('/capsule', function (req, res) {
@@ -137,7 +137,7 @@ function loadRoutes(callback) {
     })
 
     expressApp.get('/chambres', function (req, res) {
-        res.render('chambrespage/chambres');
+        res.render('chambres/dispo');
     })
 
     expressApp.get('/patient/transfert', function (req, res) {

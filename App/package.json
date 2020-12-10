@@ -6,7 +6,7 @@
   "main": "views/main.js",
   "scripts": {
     "sass": "node-sass views/assets/scss -o views/assets/css",
-    "electron": "electron-forge start",
+    "electron": "electron .",
     "start": "npm run-script sass && npm run-script electron",
     "package": "electron-forge package",
     "make": "electron-forge make",
