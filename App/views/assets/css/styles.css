@@ -4,6 +4,21 @@
   padding: 0;
   font-family: 'Nunito', sans-serif; }
 
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */ }
+
 html::-webkit-scrollbar {
   display: none;
   opacity: 1.0; }
@@ -44,6 +59,7 @@ ul, li {
 .sous {
   display: none;
   background-color: white;
+  border-radius: 10px;
   position: absolute; }
 
 ul li:hover .sous {
@@ -70,7 +86,6 @@ input {
   background-color: #f3f2f2;
   border: 1px solid #c7c7c7;
   border-radius: 10px;
-  box-shadow: 1px 1px 10px #f3f2f2;
   color: #c7c7c7;
   padding: 10px 15px;
   text-align: left;
@@ -151,7 +166,9 @@ h2 {
   height: 50px;
   background-color: #ffe3e3;
   border-radius: 10px;
-  border: 1px solid #e0e0e0; }
+  border: 1px solid #e0e0e0;
+  vertical-align: top;
+  margin-top: 5px; }
 
 .hours:hover {
   display: inline-block;
@@ -202,3 +219,166 @@ h2 {
   font-size: 1.5em;
   color: black;
   margin: 15px; }
+
+#profil, #book {
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px; }
+
+#profil h1, #book h1 {
+  font-size: 1.5em;
+  color: #8f8f8f;
+  margin-bottom: 15px; }
+
+#profil h2, #book h2 {
+  overflow-wrap: break-word;
+  font-size: 1.5em;
+  color: black;
+  margin: 15px; }
+
+.phone {
+  background-color: #f3f2f2;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  color: #c7c7c7;
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none; }
+
+.phone:hover {
+  background-color: #fafafa;
+  border: 1px solid #a5a5a5; }
+
+.phone:active, .phone:focus {
+  background-color: white;
+  box-shadow: 0 0 0 #f3f2f2;
+  color: #000000; }
+
+.room {
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.1); }
+
+.n_room {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  background-color: #ffe3e3;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 5px; }
+
+.n_room:hover {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  background-color: #ffcece;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0; }
+
+.n_room:focus {
+  outline: none; }
+
+.n_room-active {
+  display: inline-block;
+  width: 150px;
+  height: 205px;
+  color: white;
+  background-color: #ff9494;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0; }
+
+.room h2 {
+  margin-top: 0;
+  margin-bottom: 20px; }
+
+.phonebook {
+  background-color: #f3f2f2;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #f3f2f2;
+  color: #c7c7c7;
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none; }
+
+.phonebook:hover {
+  background-color: #fafafa;
+  border: 1px solid #a5a5a5; }
+
+.phonebook:focus {
+  outline: none; }
+
+.phonebook:active {
+  background-color: white;
+  box-shadow: 0 0 0 #f3f2f2;
+  color: #000000; }
+
+.add {
+  background-color: #ffcece;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #f3f2f2;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none; }
+
+.add:hover {
+  background-color: #fafafa;
+  border: 1px solid #a5a5a5;
+  color: black; }
+
+.add:focus {
+  outline: none; }
+
+.add:active {
+  background-color: #ff9494;
+  box-shadow: 0 0 0 #f3f2f2;
+  color: white; }
+
+.table-sortable tbody tr {
+  cursor: move; }
+
+table {
+  margin: auto; }
+
+table b {
+  margin-left: 25px;
+  margin-right: 25px; }
+
+.example-parent {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.example-draggable {
+  background-color: #ffcece;
+  padding: 10px;
+  margin: 5px; }
+
+.example-dropzone {
+  background-color: #ff9494;
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+  margin-top: 5px; }

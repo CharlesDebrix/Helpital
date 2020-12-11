@@ -5,11 +5,14 @@
         <title>Helpital</title>
         <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
         <script type="text/javascript" src="../annuaire/annuaire.js"></script>
-        <link rel="stylesheet" href="../assets/css/annuaire.css"/>
+        <link rel="stylesheet" href="../assets/css/styles.css"/>
+        <link rel="icon" type="image/png" href="images/favicon.png"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
     </head>
     <body onload="load()">
-        <nav>
-            <a class="navpad" href="/planning"><img class="logo" src="images/h_logo1.png"></a>
+        <nav class="noselect">
+            <a class="navpad" href="/planning"><img class="logo" src="../assets/images/h_logo1.png"></a>
             <a class="navpad" href="/planning">Tableau de bord</a>
             <ul>
                 <li class="deroulant"><a>Outils</a>
@@ -24,40 +27,33 @@
             <a class="navpad" href="/profil">Profil</a>
             <a class="navpad"><input class="entry" type="text" placeholder="Rechercher"></a>
         </nav>
-        <div id="myform">
-            Annuaire Helpital
-            <h5>Veuillez remplir les champs ci-dessous pour ajouter les informations d'un patient dans le formulaire</h2>
-            <table>
-                <tr>
-                    <td>Nom:</td>
-                    <td><input type="text" id="name"></td>
-                </tr>
-                <tr>
-                    <td>E-mail:</td>
-                    <td><input type="text" id="email"></td>
-                </tr>
-                <tr>
-                    <td>Phone:</td>
-                    <td><input type="text" id="phone">
-                </tr>
-            </table>
-            <input type="button" id="add" value="Add" onclick="Javascript:addRow()"></td>
+
+        <div class="welcome">
+            <h1>Annuaire</h1>
+            <h2>Ajouter les informations d'un patient dans le formulaire</h2>
         </div>
-        <div id="mydata" class="data_display">
-            <table id="myTableData"  border="1" cellpadding="2">
-                <thead>
-                    <th colspan="2">The table header</th>
-                </thead>
-                <tbody>
+
+        <div id="book">
+            <div id="myform">
+                <input class="phonebook" type="text" id="name" placeholder="Nom">
+                <input class="phonebook" type="text" id="email" placeholder="Email">
+                <input class="phonebook" type="text" id="phone" placeholder="N° de téléphone">
+                <input class="add" type="button" id="add" value="Ajouter" onclick="Javascript:addRow()">
+            </div>
+        </div>
+
+        <div id="book">
+            <div id="mydata" class="data_display">
+                <table id="myTableData">
                     <tr>
                         <td>&nbsp;</td>
-                        <td><b>Name</b></td>
-                        <td><b>E-mail</b></td>
-                        <td><b>Phone</b></td>
-                    </br>
+                        <td><b>Nom</b></td>
+                        <td><b>Email</b></td>
+                        <td><b>Téléphone</b></td>
                     </tr>
-                </tbody>
-            </table>
+                </table>
+            </div>
         </div>
+
     </body>
 </html>
