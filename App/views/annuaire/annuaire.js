@@ -29,7 +29,7 @@ function deleteRow(obj) {
 function load() {
     console.log("Page load finished");
 
-    const file = "../annuaire.json";
+    const file = "../database/annuaire.json";
     var request = new XMLHttpRequest();
     request.open("GET", file, false);
     request.send(null)

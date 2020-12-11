@@ -84,7 +84,7 @@ const generateAuthToken = () => {
 
 let users = [];
 
-fs.readFile('./views/users.json', (err, data) => {
+fs.readFile('./views/database/users.json', (err, data) => {
     if (err) throw err;
     users = JSON.parse(data);
 });

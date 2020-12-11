@@ -22,7 +22,7 @@ function getCookie(cname) {
 
 function init() {
   
-    fs.readFile('views/users.json', (err, data) => {
+    fs.readFile('views/database/users.json', (err, data) => {
         users = JSON.parse(data);
         addElement();
     })

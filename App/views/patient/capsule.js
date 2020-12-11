@@ -1,7 +1,7 @@
 function load() {
     console.log("Page load finished");
 
-    const file = "./capsule_patient.json";
+    const file = "./database/capsule_patient.json";
     var request = new XMLHttpRequest();
     request.open("GET", file, false);
     request.send(null)
