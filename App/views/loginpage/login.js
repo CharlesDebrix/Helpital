@@ -40,7 +40,7 @@ function loginClick() {
             window.location.replace("/authentification/" + data);
         },
         error : function(e) {
-            console.log("display error username or password");
+            window.location.replace("/login");
         }
     });
 }

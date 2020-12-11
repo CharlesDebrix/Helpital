@@ -181,8 +181,7 @@ function loadRoutes(callback) {
             res.cookie('Id', user.id);
             res.status(200).send(user.id);
         } else {
-            req.flash("messages", { "error" : "Invalid username or password" });
-            res.status(401).send({message: "Not found."});
+            res.status(401).send({message: "Invalid username or password."});
         }
     });
     
