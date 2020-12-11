@@ -19,6 +19,15 @@
   /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */ }
 
+.hours-active {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  background-color: #ff9494;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  outline: none; }
+
 html::-webkit-scrollbar {
   display: none;
   opacity: 1.0; }

@@ -24,7 +24,7 @@ function init() {
         users = JSON.parse(data);
         addElement();
     })
-    fs.readFile('views/planning.json', (err, data) => {
+    fs.readFile('views/database/planning.json', (err, data) => {
         planning_data = JSON.parse(data);
         createPlanning();
     })
