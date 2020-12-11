@@ -5,13 +5,14 @@
         <title>Profil</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../assets/css/profil.css">       
+        <link rel="stylesheet" href="../assets/css/profil.css">  
+        <script src="../user/profil.js"></script>     
         <link rel="icon" type="image/png" href="images/favicon.png"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
     </head>
 
-    <body>
+    <body onload="init()">
         <nav>
             <a class="navpad" href="/planning"><img class="logo" src="../assets/images/h_logo1.png"></a>
             <a class="navpad" href="/planning">Tableau de bord</a>
@@ -29,30 +30,11 @@
             <a class="navpad"><input class="entry" type="text" placeholder="Rechercher"></a>
         </nav>
     
-        <div class="welcome">
-            <input class="entry" type="text" placeholder="Rechercher un patient">
-            <h1 class="text">Capsule patient</h1>
-            <h2 class="text2">[NOM]</h2>
-        </div>
-        <div id="patient">
-            <h1 id="patientname" class="text1">Nom :</h1> 
-            <h2>[NOM]</h2>
-            <h1 id="patientsurname">Prénom :</h1> 
-            <h2>[PRENOM]</h2>
-            <h1 id="birthdate">Date de naissance :</h1> 
-            <h2>[DATE]</h2>
-            <h1 id="bloodgroup">Groupe sanguin :</h1> 
-            <h2>[GR_SANGUIN]</h2>
-            <h1 id="chambre">Numéro de chambre :</h1> 
-            <h2>[N_CHAMBRE]</h2> 
-            <h1 id="cartevitale">Numéro de carte vitale :</h1> 
-            <h2>[N_VITALE]</h2>
-            <h1 id="historique">Historique d'hospitalisation :</h1> 
-            <h2>[HISTO]</h2>
-            <h1 id="antecendant">Antécédent médical :</h1> 
-            <h2>[ANTECED]</h2>
-            <h1 id="allergen">Allergies :</h1> 
-            <h2>[ALLERG]</h2>
+        <div id="profil">
+            <h1 id="name" class="text1">Nom :</h1> 
+            <h1 id="surname">Prénom :</h1> 
+            <h1 id="email">email :</h1> 
+            <h1 id="phone">téléphone :</h1> 
         </div>
     </body>
 
