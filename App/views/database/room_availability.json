@@ -63,6 +63,390 @@
           "availability": "taken"
         }
       ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
+    },
+    {
+      "number": 304,
+      "capacity": 4,
+      "taken": 1,
+      "bed_available": 3,
+      "beds": [
+        {
+          "number": 0,
+          "availability": "vacant"
+        },
+        {
+          "number": 1,
+          "availability": "vacant"
+        },
+        {
+          "number": 2,
+          "availability": "vacant"
+        },
+        {
+          "number": 3,
+          "availability": "taken"
+        }
+      ]
     }
   ]
 }

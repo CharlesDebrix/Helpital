@@ -2,16 +2,17 @@
   margin: 0;
   padding: 0;
   font-family: 'Nunito', sans-serif;
-} 
+}
 
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome, Edge, Opera and Firefox */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
 .hours-active {
@@ -25,8 +26,8 @@
 }
 
 html::-webkit-scrollbar {
-display: none;
-opacity: 1.0;
+  display: none;
+  opacity: 1.0;
 }
 
 body {
@@ -42,7 +43,7 @@ nav {
   top: 0;
   left: 0;
   position: fixed;
-  box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.1);
 }
 
 .navpad {
@@ -75,11 +76,11 @@ ul, li {
   position: absolute;
 }
 
-ul li:hover .sous{
+ul li:hover .sous {
   display: block;
 }
 
-.sous li{
+.sous li {
   display: inline-block;
   float: none;
   width: 100%;
@@ -92,7 +93,7 @@ ul li:hover .sous{
 }
 
 .deroulant > a::after {
-  content:" ▼";
+  content: " ▼";
   font-size: 12px;
 }
 
@@ -101,14 +102,14 @@ input {
 }
 
 .entry {
-background-color: #f3f2f2;
+  background-color: #f3f2f2;
   border: 1px solid #c7c7c7;
   border-radius: 10px;
-color: #c7c7c7;
-padding: 10px 15px;
-text-align: left;
-cursor: pointer;
-outline: none;
+  color: #c7c7c7;
+  padding: 10px 15px;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
 }
 
 .entry:hover {
@@ -119,7 +120,7 @@ outline: none;
 .entry:active, .entry:focus {
   background-color: white;
   box-shadow: 0 0 0 #f3f2f2;
-color: #000000;
+  color: #000000;
 }
 
 div {
@@ -130,16 +131,16 @@ div {
 
 .welcome {
   margin: auto;
-top:0;
-bottom: 0;
-left: 0;
-right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   width: 30%;
   margin-top: 25px;
   margin-bottom: 25px;
   padding-top: 25px;
   padding-bottom: 25px;
-  box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.1);
 }
 
 .doctor {
@@ -160,14 +161,14 @@ h2 {
 
 .planning {
   margin: auto;
-top:0;
-bottom: 0;
-left: 0;
-right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   width: 80%;
   padding-bottom: 25px;
   margin-bottom: 25px;
-  box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.1);
 }
 
 .arrow {
@@ -236,10 +237,10 @@ right: 0;
 
 #patient {
   margin: auto;
-top:0;
-bottom: 0;
-left: 0;
-right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   width: 50%;
   padding-top: 25px;
   padding-bottom: 10px;
@@ -261,10 +262,10 @@ right: 0;
 
 #profil, #book {
   margin: auto;
-top:0;
-bottom: 0;
-left: 0;
-right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   width: 50%;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -285,14 +286,14 @@ right: 0;
 }
 
 .phone {
-background-color: #f3f2f2;
+  background-color: #f3f2f2;
   border: 1px solid #c7c7c7;
   border-radius: 10px;
-color: #c7c7c7;
-padding: 10px 15px;
-text-align: center;
-cursor: pointer;
-outline: none;
+  color: #c7c7c7;
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
 }
 
 .phone:hover {
@@ -303,20 +304,20 @@ outline: none;
 .phone:active, .phone:focus {
   background-color: white;
   box-shadow: 0 0 0 #f3f2f2;
-color: #000000;
+  color: #000000;
 }
 
 .room {
   margin: auto;
-top:0;
-bottom: 0;
-left: 0;
-right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   width: 80%;
   padding-top: 20px;
   padding-bottom: 25px;
   margin-bottom: 25px;
-  box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.1);
 }
 
 .n_room {
@@ -329,6 +330,8 @@ right: 0;
   text-align: center;
   vertical-align: top;
   margin-top: 5px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
 }
 
 .n_room:hover {
@@ -360,15 +363,15 @@ right: 0;
 }
 
 .phonebook {
-background-color: #f3f2f2;
+  background-color: #f3f2f2;
   border: 1px solid #c7c7c7;
   border-radius: 10px;
   box-shadow: 1px 1px 10px #f3f2f2;
-color: #c7c7c7;
-padding: 10px 15px;
-text-align: center;
-cursor: pointer;
-outline: none;
+  color: #c7c7c7;
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
 }
 
 .phonebook:hover {
@@ -383,7 +386,7 @@ outline: none;
 .phonebook:active {
   background-color: white;
   box-shadow: 0 0 0 #f3f2f2;
-color: #000000;
+  color: #000000;
 }
 
 .add {
@@ -391,17 +394,17 @@ color: #000000;
   border: 1px solid #c7c7c7;
   border-radius: 10px;
   box-shadow: 1px 1px 10px #f3f2f2;
-color: black;
-padding: 10px 15px;
-text-align: center;
-cursor: pointer;
-outline: none;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
 }
 
 .add:hover {
   background-color: #fafafa;
   border: 1px solid #a5a5a5;
-  color:black;
+  color: black;
 }
 
 .add:focus {
@@ -411,11 +414,11 @@ outline: none;
 .add:active {
   background-color: rgb(255, 148, 148);
   box-shadow: 0 0 0 #f3f2f2;
-color:white;
+  color: white;
 }
 
 .table-sortable tbody tr {
-  cursor: move; 
+  cursor: move;
 }
 
 table {

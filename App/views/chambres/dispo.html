@@ -6,12 +6,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../assets/css/styles.css">
+        <script src="availability.js"></script>
         <link rel="icon" type="image/png" href="assets/img/favicon.png"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
     </head>
 
-    <body>
+    <body onload="init()">
         <nav class="noselect">
             <a class="navpad" href="/planning"><img class="logo" src="../assets/images/h_logo1.png"></a>
             <a class="navpad" href="/planning">Tableau de bord</a>
@@ -33,25 +34,7 @@
             <h1>Disponibilité des chambres</h1>
         </div>
 
-        <div class="room">
-            <!-- <h2>1er étage</h2> -->
-            <div class="noselect">
-                <div class="n_room">N°1</div>
-                <div class="n_room">N°2</div>
-                <div class="n_room">N°3 </div>
-                <div class="n_room">N°4</div>
-                <div class="n_room">N°5</div>
-                <div class="n_room">N°6</div>
-                <div class="n_room">N°7</div>
-                <div class="n_room">N°8</div>
-                <div class="n_room">N°9</div>
-                <div class="n_room">N°10</div>
-                <div class="n_room">N°11</div>
-                <div class="n_room">N°12</div>
-                <div class="n_room">N°13</div>
-                <div class="n_room">N°14</div>
-            </div>
-        </div>
+        <div id="rooms_list" class="room"></div>
 
     </body>
 </html>
