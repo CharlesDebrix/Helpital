@@ -6,12 +6,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/planning.css">
+        <script src="../homepage/planning.js"></script>     
         <link rel="icon" type="image/png" href="images/favicon.png"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
     </head>
 
-    <body>
+    <body onload="init()">
         <nav>
             <a class="navpad" href="/planning"><img class="logo" src="images/h_logo1.png"></a>
             <a class="navpad" href="/planning">Tableau de bord</a>
@@ -30,8 +31,7 @@
         </nav>
 
         <div class="welcome">
-            <img class="doctor" src="images/doctor.png">
-            <h1>Bonjour [NOM] !</h1>
+            <img id="image_doctor" class="doctor" src="images/doctor.png">
             <h2>Bienvenue sur le tableau de bord Helpital</h2>
         </div>
 

@@ -37,7 +37,6 @@ function loginClick() {
         data : JSON.stringify({"username": t2.value, "password": t3.value}),
         timeout : 100000,
         success : function(data) {
-            console.log("data ===", data);
             window.location.replace("/authentification/" + data);
         },
         error : function(e) {

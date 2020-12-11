@@ -18,10 +18,7 @@ function getCookie(cname) {
     return;
 }
 
-
-
 function init() {
-  
     fs.readFile('views/users.json', (err, data) => {
         users = JSON.parse(data);
         addElement();
@@ -33,12 +30,6 @@ function addElement() {
     const user = users.find(u => {
         return u.id === cookieId;
     });
-    let name = document.getElementById('name'); 
-    name.insertAdjacentHTML('afterend', `<h2> ${user.name} </h2>`);
-    let surname = document.getElementById('surname'); 
-    surname.insertAdjacentHTML('afterend', `<h2> ${user.surname} </h2>`);
-    let email = document.getElementById('email'); 
-    email.insertAdjacentHTML('afterend', `<h2> ${user.email} </h2>`);
-    let phone = document.getElementById('phone'); 
-    phone.insertAdjacentHTML('afterend', `<h2> ${user.phone} </h2>`);
+    let surname = document.getElementById('image_doctor'); 
+    surname.insertAdjacentHTML('afterend', `<h1>Bonjour ${user.surname} !</h1>`);
 }

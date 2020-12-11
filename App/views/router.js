@@ -187,7 +187,6 @@ function loadRoutes(callback) {
     });
     
     if (typeof callback != 'undefined') {
-        console.log("il passe par le typeof callback");
         callback();
     }
 }
