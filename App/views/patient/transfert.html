@@ -4,7 +4,7 @@
         <title>Helpital Transfert patient</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../assets/css/transfert.css">
+        <link rel="stylesheet" href="../assets/css/styles.css">
         <script src="../patient/transfert.js"></script>     
         <link rel="icon" type="image/png" href="images/favicon.png"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,72 +12,39 @@
     </head>
 
     <body>
-        <nav>
-            <a class="navpad" href="/planning"><img class="logo" src="/images/h_logo1.png"></a>
+        <nav class="noselect">
+            <a class="navpad" href="/planning"><img class="logo" src="../assets/images/h_logo1.png"></a>
             <a class="navpad" href="/planning">Tableau de bord</a>
             <ul>
                 <li class="deroulant"><a>Outils</a>
-                    <ul class="sous">
+                  <ul class="sous">
                     <li><a href="/annuaire">Annuaire</a></li>
                     <li><a href="/capsule">Capsule patient</a></li>
                     <li><a href="/patient/transfert">Transfert de patient</a></li>
-                    <li><a href="/chambres">gestion des chambres</a></li>
-                    </ul>
+                    <li><a href="/chambres">Gestion des chambres</a></li>
+                  </ul>
                 </li>
             </ul>
             <a class="navpad" href="/profil">Profil</a>
             <a class="navpad"><input class="entry" type="text" placeholder="Rechercher"></a>
         </nav>
 
-        <div class = "print">
-            <h1 id = "Title"> Transfert de patient </h1>
+        <div class="welcome">
+            <h1>Transfert de patient</h1>
         </div>
 
-        <div class="example-parent">
-            <div class="example-origin">
-                To-do
-                <div
-                id="draggable-1"
-                class="example-draggable"
-                draggable="true"
-                ondragstart="onDragStart(event);"
-            >
-                thing 1
+        <div id="book">
+            <div class="example-parent">
+                <div id="draggable-1" class="example-draggable" draggable="true" ondragstart="onDragStart(event);">
+                    <p>Patient 1</p>
                 </div>
-                <div
-                id="draggable-2"
-                class="example-draggable"
-                draggable="true"
-                ondragstart="onDragStart(event);"
-                >
-                thing 2
-                </div>
-                <div
-                id="draggable-3"
-                class="example-draggable"
-                draggable="true"
-                ondragstart="onDragStart(event);"
-                >
-                thing 3
-                </div>
-                <div
-                id="draggable-4"
-                class="example-draggable"
-                draggable="true"
-                ondragstart="onDragStart(event);"
-                >
-                thing 4
+                <div>
+                    <input class="phone" type="text" placeholder="Rechercher un service">
+                    <div class="example-dropzone" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+                        <p>[SERVICE]</p>
+                    </div>
                 </div>
             </div>
-                <div
-                class="example-dropzone"
-                ondragover="onDragOver(event);"
-                ondrop="onDrop(event);">
-                Done
-                </div>
-            </div>
-        <footer>
-            <p><center></center></p>
-        </footer>
+        </div>
     </body>
-</html>
+</html> 

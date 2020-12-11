@@ -20,5 +20,16 @@
         "phone": "0600000000",
         "password": "n4bQgYhMfWWaL+qgxVrQFaO/TxsrC4Is0V1sFbDwCgg=",
         "photo": ""
+    },
+    {
+        "id": "3",
+        "username": "QuentinD",
+        "name": "Desabre",
+        "surname": "Quentin",
+        "email": "quentin.desabre@epitech.eu",
+        "dateDeNaissance": "01/01/2001",
+        "phone": "0600000000",
+        "password": "n4bQgYhMfWWaL+qgxVrQFaO/TxsrC4Is0V1sFbDwCgg=",
+        "photo": ""
     }
 ]
