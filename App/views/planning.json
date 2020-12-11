@@ -1,0 +1,745 @@
+{
+  "weeks": [
+    {
+      "number": 1,
+      "total_hours_worked": 37,
+      "days": [
+        {
+          "name": "monday",
+          "active_hours": 7,
+          "first_active_hour": "7h-8h",
+          "last_active_hour": "14h-15h",
+          "hours": [
+            {
+              "hour": "0h-1h",
+              "active": false
+            },
+            {
+              "hour": "1h-2h",
+              "active": false
+            },
+            {
+              "hour": "2h-3h",
+              "active": false
+            },
+            {
+              "hour": "3h-4h",
+              "active": false
+            },
+            {
+              "hour": "4h-5h",
+              "active": false
+            },
+            {
+              "hour": "5h-6h",
+              "active": false
+            },
+            {
+              "hour": "6h-7h",
+              "active": false
+            },
+            {
+              "hour": "7h-8h",
+              "active": true
+            },
+            {
+              "hour": "8h-9h",
+              "active": true
+            },
+            {
+              "hour": "9h-10h",
+              "active": true
+            },
+            {
+              "hour": "10h-11h",
+              "active": true
+            },
+            {
+              "hour": "11h-12h",
+              "active": true
+            },
+            {
+              "hour": "12h-13h",
+              "active": true
+            },
+            {
+              "hour": "13h-14h",
+              "active": true
+            },
+            {
+              "hour": "14h-15h",
+              "active": false
+            },
+            {
+              "hour": "15h-16h",
+              "active": false
+            },
+            {
+              "hour": "16h-17h",
+              "active": false
+            },
+            {
+              "hour": "17h-18h",
+              "active": false
+            },
+            {
+              "hour": "18h-19h",
+              "active": false
+            },
+            {
+              "hour": "19h-20h",
+              "active": false
+            },
+            {
+              "hour": "20h-21h",
+              "active": false
+            },
+            {
+              "hour": "21h-22h",
+              "active": false
+            },
+            {
+              "hour": "22h-23h",
+              "active": false
+            },
+            {
+              "hour": "23h-24h",
+              "active": false
+            }
+          ],
+          "total_hours": 12
+        },
+        {
+          "name": "tuesday",
+          "active_hours": 0,
+          "first_active_hour": "",
+          "last_active_hour": "",
+          "hours": [
+            {
+              "hour": "0h-1h",
+              "active": false
+            },
+            {
+              "hour": "1h-2h",
+              "active": false
+            },
+            {
+              "hour": "2h-3h",
+              "active": false
+            },
+            {
+              "hour": "3h-4h",
+              "active": false
+            },
+            {
+              "hour": "4h-5h",
+              "active": false
+            },
+            {
+              "hour": "5h-6h",
+              "active": false
+            },
+            {
+              "hour": "6h-7h",
+              "active": false
+            },
+            {
+              "hour": "7h-8h",
+              "active": false
+            },
+            {
+              "hour": "8h-9h",
+              "active": false
+            },
+            {
+              "hour": "9h-10h",
+              "active": false
+            },
+            {
+              "hour": "10h-11h",
+              "active": false
+            },
+            {
+              "hour": "11h-12h",
+              "active": false
+            },
+            {
+              "hour": "12h-13h",
+              "active": false
+            },
+            {
+              "hour": "13h-14h",
+              "active": false
+            },
+            {
+              "hour": "14h-15h",
+              "active": false
+            },
+            {
+              "hour": "15h-16h",
+              "active": false
+            },
+            {
+              "hour": "16h-17h",
+              "active": false
+            },
+            {
+              "hour": "17h-18h",
+              "active": false
+            },
+            {
+              "hour": "18h-19h",
+              "active": false
+            },
+            {
+              "hour": "19h-20h",
+              "active": false
+            },
+            {
+              "hour": "20h-21h",
+              "active": false
+            },
+            {
+              "hour": "21h-22h",
+              "active": false
+            },
+            {
+              "hour": "22h-23h",
+              "active": false
+            },
+            {
+              "hour": "23h-24h",
+              "active": false
+            }
+          ],
+          "total_hours": 12
+        },
+        {
+          "name": "wednesday",
+          "active_hours": 9,
+          "first_active_hour": "7h-8h",
+          "last_active_hour": "16h-17h",
+          "hours": [
+            {
+              "hour": "0h-1h",
+              "active": false
+            },
+            {
+              "hour": "1h-2h",
+              "active": false
+            },
+            {
+              "hour": "2h-3h",
+              "active": false
+            },
+            {
+              "hour": "3h-4h",
+              "active": false
+            },
+            {
+              "hour": "4h-5h",
+              "active": false
+            },
+            {
+              "hour": "5h-6h",
+              "active": false
+            },
+            {
+              "hour": "6h-7h",
+              "active": false
+            },
+            {
+              "hour": "7h-8h",
+              "active": true
+            },
+            {
+              "hour": "8h-9h",
+              "active": true
+            },
+            {
+              "hour": "9h-10h",
+              "active": true
+            },
+            {
+              "hour": "10h-11h",
+              "active": true
+            },
+            {
+              "hour": "11h-12h",
+              "active": true
+            },
+            {
+              "hour": "12h-13h",
+              "active": true
+            },
+            {
+              "hour": "13h-14h",
+              "active": true
+            },
+            {
+              "hour": "14h-15h",
+              "active": false
+            },
+            {
+              "hour": "15h-16h",
+              "active": true
+            },
+            {
+              "hour": "16h-17h",
+              "active": true
+            },
+            {
+              "hour": "17h-18h",
+              "active": false
+            },
+            {
+              "hour": "18h-19h",
+              "active": false
+            },
+            {
+              "hour": "19h-20h",
+              "active": false
+            },
+            {
+              "hour": "20h-21h",
+              "active": false
+            },
+            {
+              "hour": "21h-22h",
+              "active": false
+            },
+            {
+              "hour": "22h-23h",
+              "active": false
+            },
+            {
+              "hour": "23h-24h",
+              "active": false
+            }
+          ],
+          "total_hours": 12
+        },
+        {
+          "name": "thursday",
+          "active_hours": 4,
+          "first_active_hour": "10h-11h",
+          "last_active_hour": "13h-14h",
+          "hours": [
+            {
+              "hour": "0h-1h",
+              "active": false
+            },
+            {
+              "hour": "1h-2h",
+              "active": false
+            },
+            {
+              "hour": "2h-3h",
+              "active": false
+            },
+            {
+              "hour": "3h-4h",
+              "active": false
+            },
+            {
+              "hour": "4h-5h",
+              "active": false
+            },
+            {
+              "hour": "5h-6h",
+              "active": false
+            },
+            {
+              "hour": "6h-7h",
+              "active": false
+            },
+            {
+              "hour": "7h-8h",
+              "active": false
+            },
+            {
+              "hour": "8h-9h",
+              "active": false
+            },
+            {
+              "hour": "9h-10h",
+              "active": false
+            },
+            {
+              "hour": "10h-11h",
+              "active": true
+            },
+            {
+              "hour": "11h-12h",
+              "active": true
+            },
+            {
+              "hour": "12h-13h",
+              "active": true
+            },
+            {
+              "hour": "13h-14h",
+              "active": true
+            },
+            {
+              "hour": "14h-15h",
+              "active": false
+            },
+            {
+              "hour": "15h-16h",
+              "active": false
+            },
+            {
+              "hour": "16h-17h",
+              "active": false
+            },
+            {
+              "hour": "17h-18h",
+              "active": false
+            },
+            {
+              "hour": "18h-19h",
+              "active": false
+            },
+            {
+              "hour": "19h-20h",
+              "active": false
+            },
+            {
+              "hour": "20h-21h",
+              "active": false
+            },
+            {
+              "hour": "21h-22h",
+              "active": false
+            },
+            {
+              "hour": "22h-23h",
+              "active": false
+            },
+            {
+              "hour": "23h-24h",
+              "active": false
+            }
+          ],
+          "total_hours": 12
+        },
+        {
+          "name": "friday",
+          "active_hours": 0,
+          "first_active_hour": "",
+          "last_active_hour": "",
+          "hours": [
+            {
+              "hour": "0h-1h",
+              "active": false
+            },
+            {
+              "hour": "1h-2h",
+              "active": false
+            },
+            {
+              "hour": "2h-3h",
+              "active": false
+            },
+            {
+              "hour": "3h-4h",
+              "active": false
+            },
+            {
+              "hour": "4h-5h",
+              "active": false
+            },
+            {
+              "hour": "5h-6h",
+              "active": false
+            },
+            {
+              "hour": "6h-7h",
+              "active": false
+            },
+            {
+              "hour": "7h-8h",
+              "active": false
+            },
+            {
+              "hour": "8h-9h",
+              "active": false
+            },
+            {
+              "hour": "9h-10h",
+              "active": false
+            },
+            {
+              "hour": "10h-11h",
+              "active": false
+            },
+            {
+              "hour": "11h-12h",
+              "active": false
+            },
+            {
+              "hour": "12h-13h",
+              "active": false
+            },
+            {
+              "hour": "13h-14h",
+              "active": false
+            },
+            {
+              "hour": "14h-15h",
+              "active": false
+            },
+            {
+              "hour": "15h-16h",
+              "active": false
+            },
+            {
+              "hour": "16h-17h",
+              "active": false
+            },
+            {
+              "hour": "17h-18h",
+              "active": false
+            },
+            {
+              "hour": "18h-19h",
+              "active": false
+            },
+            {
+              "hour": "19h-20h",
+              "active": false
+            },
+            {
+              "hour": "20h-21h",
+              "active": false
+            },
+            {
+              "hour": "21h-22h",
+              "active": false
+            },
+            {
+              "hour": "22h-23h",
+              "active": false
+            },
+            {
+              "hour": "23h-24h",
+              "active": false
+            }
+          ],
+          "total_hours": 12
+        },
+        {
+          "name": "saturday",
+          "active_hours": 7,
+          "first_active_hour": "8h-9h",
+          "last_active_hour": "15h-16h",
+          "hours": [
+            {
+              "hour": "0h-1h",
+              "active": false
+            },
+            {
+              "hour": "1h-2h",
+              "active": false
+            },
+            {
+              "hour": "2h-3h",
+              "active": false
+            },
+            {
+              "hour": "3h-4h",
+              "active": false
+            },
+            {
+              "hour": "4h-5h",
+              "active": false
+            },
+            {
+              "hour": "5h-6h",
+              "active": false
+            },
+            {
+              "hour": "6h-7h",
+              "active": false
+            },
+            {
+              "hour": "7h-8h",
+              "active": false
+            },
+            {
+              "hour": "8h-9h",
+              "active": true
+            },
+            {
+              "hour": "9h-10h",
+              "active": true
+            },
+            {
+              "hour": "10h-11h",
+              "active": true
+            },
+            {
+              "hour": "11h-12h",
+              "active": false
+            },
+            {
+              "hour": "12h-13h",
+              "active": true
+            },
+            {
+              "hour": "13h-14h",
+              "active": true
+            },
+            {
+              "hour": "14h-15h",
+              "active": true
+            },
+            {
+              "hour": "15h-16h",
+              "active": true
+            },
+            {
+              "hour": "16h-17h",
+              "active": false
+            },
+            {
+              "hour": "17h-18h",
+              "active": false
+            },
+            {
+              "hour": "18h-19h",
+              "active": false
+            },
+            {
+              "hour": "19h-20h",
+              "active": false
+            },
+            {
+              "hour": "20h-21h",
+              "active": false
+            },
+            {
+              "hour": "21h-22h",
+              "active": false
+            },
+            {
+              "hour": "22h-23h",
+              "active": false
+            },
+            {
+              "hour": "23h-24h",
+              "active": false
+            }
+          ],
+          "total_hours": 12
+        },
+        {
+          "name": "sunday",
+          "active_hours": 10,
+          "first_active_hour": "7h-8h",
+          "last_active_hour": "17h-18h",
+          "hours": [
+            {
+              "hour": "0h-1h",
+              "active": false
+            },
+            {
+              "hour": "1h-2h",
+              "active": false
+            },
+            {
+              "hour": "2h-3h",
+              "active": false
+            },
+            {
+              "hour": "3h-4h",
+              "active": false
+            },
+            {
+              "hour": "4h-5h",
+              "active": false
+            },
+            {
+              "hour": "5h-6h",
+              "active": false
+            },
+            {
+              "hour": "6h-7h",
+              "active": false
+            },
+            {
+              "hour": "7h-8h",
+              "active": true
+            },
+            {
+              "hour": "8h-9h",
+              "active": true
+            },
+            {
+              "hour": "9h-10h",
+              "active": true
+            },
+            {
+              "hour": "10h-11h",
+              "active": true
+            },
+            {
+              "hour": "11h-12h",
+              "active": true
+            },
+            {
+              "hour": "12h-13h",
+              "active": false
+            },
+            {
+              "hour": "13h-14h",
+              "active": true
+            },
+            {
+              "hour": "14h-15h",
+              "active": true
+            },
+            {
+              "hour": "15h-16h",
+              "active": true
+            },
+            {
+              "hour": "16h-17h",
+              "active": true
+            },
+            {
+              "hour": "17h-18h",
+              "active": true
+            },
+            {
+              "hour": "18h-19h",
+              "active": false
+            },
+            {
+              "hour": "19h-20h",
+              "active": false
+            },
+            {
+              "hour": "20h-21h",
+              "active": false
+            },
+            {
+              "hour": "21h-22h",
+              "active": false
+            },
+            {
+              "hour": "22h-23h",
+              "active": false
+            },
+            {
+              "hour": "23h-24h",
+              "active": false
+            }
+          ],
+          "total_hours": 12
+        }
+      ]
+    }
+  ]
+}
