@@ -1,11 +1,17 @@
 function load() {
     console.log("Page load finished");
 
-    const file = "../capsule_patient.json";
+    const file = "./capsule_patient.json";
     var request = new XMLHttpRequest();
     request.open("GET", file, false);
     request.send(null)
     var my_JSON_object = JSON.parse(request.responseText);
+
+    // Name
+    var mainContainer = document.getElementById("patient_pres");
+    var div = document.createElement("p");
+    div.innerHTML = '</br>' + my_JSON_object[0].name + ' ' + my_JSON_object[0].fullname + ' ';
+    mainContainer.appendChild(div);
 
     // Name
     var mainContainer = document.getElementById("patientname");

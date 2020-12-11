@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Charles",
+        "fullname": "Debrix",
+        "birthdate": "09/09/1999",
+        "bloodgroup": "OUI",
+        "allergies": "Gluten",
+        "vitalcard": "dgzg",
+        "hosp_histo": "Torax Surgery",
+        "antecedant": "zegz",
+        "id": "98765434",
+        "room": "302"
+    },
+    {
+        "name": "Emmanuel",
+        "fullname": "Lena",
+        "birthdate": "11/03/1999",
+        "bloodgroup": "O+",
+        "allergies": "Salt",
+        "vitalcard": "7654334567",
+        "hosp_histo": "Foot Surgery",
+        "antecedant": "Cancer",
+        "id": "32490567",
+        "room": "402"
+    }
+]
