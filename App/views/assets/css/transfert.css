@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 * {
   margin: 0;
   padding: 0;
@@ -21,8 +20,7 @@ nav {
   top: 0;
   left: 0;
   position: fixed;
-  box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.1);
-}
+  box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.1); }
 
 .navpad {
   padding-right: 20px;
@@ -166,112 +164,98 @@ h2 {
   margin: 15px; }
 
 .switch {
-	position: flex;
-	padding-top: 5%;
-}
+  position: flex;
+  padding-top: 5%; }
 
 .carrépatient {
-	width:100px;
-	height:100px;
-	background: grey;
-	position: relative;
-	left: 25%;
-	border-radius: 10px;
-}
+  width: 100px;
+  height: 100px;
+  background: grey;
+  position: relative;
+  left: 25%;
+  border-radius: 10px; }
 
 .carrépatient:hover {
-	display: inline-block;
-	background-color:yellow;
-	border-radius: 10px;
-	border: 1px solid #e0e0e0;
-	outline: none;
-}
+  display: inline-block;
+  background-color: yellow;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  outline: none; }
 
 .otherroom {
-    padding-top: 2%;
-	width:150px;
-	height:150px;
-    background: red;
-	position: relative;
-	left: 75%;
-	border-radius: 10px;
-}
+  padding-top: 2%;
+  width: 150px;
+  height: 150px;
+  background: red;
+  position: relative;
+  left: 75%;
+  border-radius: 10px; }
 
 .otherroom:hover {
-	display: inline-block;
-	background-color:yellow;
-	border-radius: 10px;
-	border: 1px solid #e0e0e0;
-	outline: none;
-}
+  display: inline-block;
+  background-color: yellow;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  outline: none; }
 
 .otherroom2 {
-    padding-top: 2%;
-	width:150px;
-	height:150px;
-    background: orange;
-	position: relative;
-	left: 75%;
-	border-radius: 10px;
-}
+  padding-top: 2%;
+  width: 150px;
+  height: 150px;
+  background: orange;
+  position: relative;
+  left: 75%;
+  border-radius: 10px; }
 
 .otherroom2:hover {
-	display: inline-block;
-	background-color: yellow;
-	border-radius: 10px;
-	border: 1px solid #e0e0e0;
-	outline: none;
-}
+  display: inline-block;
+  background-color: yellow;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  outline: none; }
 
 .otherroom3 {
-    padding-top: 2%;
-	width:150px;
-	height:150px;
-    background: green;
-	position: relative;
-	left: 75%;
-	border-radius: 10px;
-}
+  padding-top: 2%;
+  width: 150px;
+  height: 150px;
+  background: green;
+  position: relative;
+  left: 75%;
+  border-radius: 10px; }
 
 .otherroom3:hover {
-	display: inline-block;
-	background-color:yellow;
-	border-radius: 10px;
-	border: 1px solid #e0e0e0;
-	outline: none;
-}
+  display: inline-block;
+  background-color: yellow;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  outline: none; }
 
 .print {
-	background-color: white;
-	border-radius: 10px;
-	text-align: center;
-}
+  background-color: white;
+  border-radius: 10px;
+  text-align: center; }
 
 .example-parent {
   border: 2px solid #DFA612;
   color: black;
   display: flex;
   font-family: sans-serif;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .example-origin {
   flex-basis: 100%;
   flex-grow: 1;
-  padding: 10px;
-}
+  padding: 10px; }
 
 .example-draggable {
   background-color: #4AAE9B;
   font-weight: normal;
   margin-bottom: 10px;
   margin-top: 10px;
-  padding: 10px;
-}
+  padding: 10px; }
 
 .example-dropzone {
   background-color: #6DB65B;
   flex-basis: 100%;
   flex-grow: 1;
-  padding: 10px;
-}
+  padding: 10px; }
