@@ -9,7 +9,13 @@
         "hosp_histo": "Torax Surgery",
         "antecedant": "Aucun",
         "id": "98765434",
-        "room": "302"
+        "room": "302",
+        "documents": [
+            {
+                "name": "cerveau",
+                "path": "../database/documents/cerveau.jpg"
+            }
+        ]
     },
     {
         "name": "Emmanuel",
@@ -21,6 +27,12 @@
         "hosp_histo": "Foot Surgery",
         "antecedant": "Cancer",
         "id": "32490567",
-        "room": "402"
+        "room": "402",
+        "documents": [
+            {
+                "name": "colonne vertebrale",
+                "path": "../database/documents/radio_colonne_vertebrale.jpg"
+            }
+        ]
     }
 ]

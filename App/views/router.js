@@ -9,6 +9,7 @@ let session = require('express-session');
 let cons = require('consolidate');
 let bodyParser = require('body-parser');
 const fs = require('fs');
+const controller = require('./controllers/user');
 
 /* Ajout de express-ejs-layouts */
 // const ejsLayout = require('express-ejs-layouts');
@@ -119,6 +120,30 @@ function loadRoutes(callback) {
         res.render('loginpage/login');
     })
 
+    expressApp.get('/register', function(req, res) {
+        res.render('loginpage/register');
+    })
+
+    expressApp.post('/register', controller.register, function(req, res) {
+
+    })
+
+    expressApp.get('/resetPassword', function(req, res) {
+        res.render('loginpage/resetPass');
+    })
+
+    expressApp.post('/resetPassword', controller.resetPassword, function(req, res) {
+
+    })
+
+    expressApp.get('/infoPatient', controller.hasPermission, function(req, res) {
+        console.log("il passe bien par le /infopatient");
+    })
+    
+    expressApp.get('/fichierPatient', controller.hasPermission, function(req, res) {
+
+    })
+
     // to do :
     expressApp.get('/planning', function (req, res) {
         req.params.id = req.query.id;
@@ -179,6 +204,14 @@ function loadRoutes(callback) {
             // Setting the auth token in cookies
             res.cookie('AuthToken', authToken);
             res.cookie('Id', user.id);
+            let toWrite = JSON.stringify({"id": user.id})
+            fs.writeFile('views/database/current_user.json', toWrite, err => {
+                if (err) {
+                    console.log('error writing file', err);
+                } else {
+                    console.log('Successfully wrote file');
+                }
+            });
             res.status(200).send(user.id);
         } else {
             res.status(401).send({message: "Invalid username or password."});
